@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #009b72;
+    color: #fff;
+}
+
+/* contour apps*/
+.wrapper {
+    padding: 40px;
+    background: #055d46;
+    width: 560px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+        0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    position: relative;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main section {
+    margin: 40px;
+}
+
+/*background question mark*/
+header .numero {
+    background-color: #009ddc;
+    width: 130px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2rem;
+    position: relative;
+    left: 38%;
+    margin-top: 25px;
+    top: 30px;
+    color: #ffffff;
+}
+
+/* btn Ressayer */
+header .ressay {
+    border: none;
+    width: 120px;
+    height: 35px;
+    background-color: #ed254e;
+    color: white;
+    border-radius: 20px;
+}
+
+header .ressay:hover {
+    background-color: #ce0a31;
+    cursor: pointer;
+}
+
+/* aranger le btn gauche*/
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* input value */
+.left input {
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* btn vérifier */
+.left .verifier {
+    border: none;
+    margin: 10px;
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #009b72;
+    color: white;
+    border-radius: 20px;
+}
+
+.left .verifier:hover {
+    background-color: #009ddc;
+    cursor: pointer;
+}
+
+/*Right section*/
+.right span {
+    color: #ddd900;
+    font-size: 1.2rem;
+}
+
+.right .message {
+    color: #ddd900;
+}
